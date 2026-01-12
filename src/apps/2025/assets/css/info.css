@@ -1,0 +1,110 @@
+/* --------- section info -------- */
+.info {
+  width: 100%;
+  margin-top: 3.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.info-title {
+  width: 100%;
+  padding: 1.4rem 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.info-title p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.info-title h3 {
+  font-weight: 600;
+  color: var(--pdfColor);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.info .info-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info-img img {
+  max-width: 95%;
+  border: 0.2px solid #111;
+  margin: 1.2rem 0;
+}
+
+.info .info-txt {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.info .info-txt h4 {
+  width: 100%;
+  margin: 1.2rem 0 0.8rem;
+  text-align: start;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.info .info-txt i {
+  margin-bottom: 0.8rem;
+}
+
+.info .info-txt li {
+  margin: -0.2rem 0;
+}
+
+.tab-panel {
+  width: 100%;
+  margin-top: 1.4rem;
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #2c0303;
+  border-bottom: 1px solid #2c0303;
+}
+
+.tab-header button {
+  width: 100%;
+  border: none;
+  padding: 12px 0 6px;
+  text-align: center;
+  font-weight: 00;
+  font-size: 16px;
+  cursor: pointer;
+  border-bottom: 4px solid transparent;
+  background-color: #ddd;
+  transition: border-bottom 0.2s ease;
+}
+
+.tab-header button.active {
+  border-bottom: 4px solid var(--pdfColor);
+}
+
+.tab-content {
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

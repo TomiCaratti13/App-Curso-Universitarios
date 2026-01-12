@@ -1,0 +1,100 @@
+/* --------- section galeria -------- */
+.galeria {
+  width: 100%;
+  margin-top: 3.6rem;
+  background-color: #fff;
+}
+
+.foto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding-top: 1rem;
+}
+.foto h4 {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+
+.foto .linck {
+  display: flex;
+  flex-direction: row;
+}
+
+.foto .linck a {
+  text-decoration: 0;
+  background-color: var(--pdfColor);
+  color: #fff;
+  font-weight: 500;
+  margin: 0.5rem 0 1rem 0;
+  padding: 0.2rem 1.5rem;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px #0000008c;
+  transition: 0.2s;
+}
+
+.foto .linck a:hover {
+  transform: scale(0.9);
+}
+
+.galeria .imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+
+.imagenes .imagen {
+  width: 45%;
+  height: 0;
+  padding-bottom: 45%;
+  background-color: #000000b0;
+  margin: 0.3rem 0.3rem;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.2s;
+  color: rgba(190, 190, 190, 0.807);
+}
+
+.imagenes .imagen:hover {
+  transform: scale(0.9);
+}
+
+.imagen i {
+  font-size: 4rem;
+  color: #bfbfbf;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imagen img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (width >=1000px) {
+  .imagenes .imagen {
+    width: 20%;
+    height: 0;
+    padding-bottom: 20%;
+  }
+}
+
+@media (width >=700px) {
+  .imagenes .imagen {
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+  }
+}

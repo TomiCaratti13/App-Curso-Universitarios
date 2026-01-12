@@ -1,0 +1,67 @@
+/* --------- section videos -------- */
+.conferencias {
+  width: 100%;
+  margin-top: 3.6rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+.videos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.year-selector {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-top: 1px solid #2c0303;
+  border-bottom: 1px solid #2c0303;
+  background-color: #ddd;
+}
+
+.year-selector label {
+  font-size: 16px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.year-selector select {
+  padding: 8px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.year-selector select:focus {
+  outline: none;
+  border-color: #2c0303;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.year-selector select:hover {
+  border-color: #2c0303;
+}
+
+.player-container {
+  width: 90%;
+  max-width: 320px;
+  height: 200px;
+  align-items: center;
+  margin: 1rem 0;
+  border-radius: 15px;
+  overflow: hidden;
+}

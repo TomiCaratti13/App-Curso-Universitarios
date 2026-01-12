@@ -1,0 +1,42 @@
+/* --------- section panel -------- */
+.panel {
+  max-width: 400px !important;
+  margin: auto;
+  margin-top: 76dvh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.boton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icono {
+  background-color: var(--iconBGColor);
+  background-color: #ddd;
+  height: 4.2rem;
+  width: 4.2rem;
+  border-radius: 50%;
+  margin: 0.2rem 0.4rem;
+  border: 3px solid var(--themeColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  color: var(--themeColor);
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.icono:hover {
+  transform: scale(0.9);
+}
+
+.nombre {
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
